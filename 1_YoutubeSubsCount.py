@@ -13,6 +13,7 @@ driver.get("https://youtube.com/")
 
 searchbox = driver.find_element_by_xpath('//*[@id="search"]')
 searchbox.send_keys('Samay Raina')
+#You could change the channel name to your desired one by just replacing Samay Raina in the quotes to the channel you want.
 
 driver.implicitly_wait(10)
 
